@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
       "jsx": "react",
+      "moduleResolution": "node",
       "esModuleInterop": true,
-      "allowImportingTsExtensions": true,
+      "allowSyntheticDefaultImports": true,
+      "noEmit": true // or "emitDeclarationOnly": true
     }
   }
   

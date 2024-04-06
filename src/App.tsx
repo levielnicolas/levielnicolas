@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
-import Header from './components/Header/Header.tsx';
-import About from './components/About/About.tsx';
-import Projects from './components/Projects/Projects.tsx';
-import Contact from './components/Contact/Contact.tsx';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 import './index.css';
 
 const App: React.FC = () => {
